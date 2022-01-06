@@ -46,5 +46,18 @@ const port = process.env.PORT;
 Añado en Package.JSON en scripts
 "start": "node app.js"
 
+Para verificar npm start
+
+Preparo el Gitignore
+node_modules/
+
+GUARDAR EN GIT
+
+git init
+git add .
+git commit -m "Webserver"
+
+
+
 
 
