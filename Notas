@@ -1,0 +1,50 @@
+Crear Package . json
+npm install -y
+
+Buscar en node http.createServer
+Nos ayuda a crear un servidor http
+
+
+
+EXPRESS
+
+ir a npm EXPRESS
+instalar express npm i express
+
+copiar el codigo ppal para ver
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(3000)
+
+VER DOC OFICIAL de EXPRESS en 
+express.com
+
+HANDLEBARS poca potencia
+https://www.npmjs.com/package/handlebars
+instalar para express. Busco y me da
+npm i hbs
+
+
+https://github.com/pillarjs/hbs
+
+
+PREPARAR APLICACION PARA SUBIRLA al hosting
+npm i dotenv // para utilizar variables entorno
+
+construyo .env
+
+añado en app
+require('dotenv').config();
+
+defino variable puerto como variable de entorno
+const port = process.env.PORT;
+Añado en Package.JSON en scripts
+"start": "node app.js"
+
+
+
